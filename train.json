@@ -1,253 +1,253 @@
 [
-{
-instruct: "Modelar resposta",
-input: "atenção à passiflora e qualidade do sono",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Consumo de Passiflora\" -> \"Atenção\" [label=\"Modula (PLS-SEM)\", color=\"blue\"];\n  \"Atenção\" -> \"Qualidade do Sono\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Ansiedade\" -> \"Qualidade do Sono\" [label=\"Influencia (NCA)\", color=\"blue\"];\n  \"Consumo de Passiflora\" -> \"Ansiedade\" [label=\"Reduz (PLS-SEM)\", color=\"blue\"];\n}"
-},
-{
-instruct: "Analisar correlação",
-input: "dados de atenção e cultivo de passiflora",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Passiflora)\" -> \"Níveis de Atenção\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Passiflora)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Níveis de Atenção\" [label=\"Influencia (NCA)\", color=\"green\"];\n}"
-},
-{
-instruct: "Modeling response",
-input: "attention to passiflora and sleep quality",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Passiflora Intake\" -> \"Attention\" [label=\"Modulates (PLS-SEM)\", color=\"blue\"];\n  \"Attention\" -> \"Sleep Quality\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Anxiety\" -> \"Sleep Quality\" [label=\"Influences (NCA)\", color=\"blue\"];\n  \"Passiflora Intake\" -> \"Anxiety\" [label=\"Reduces (PLS-SEM)\", color=\"blue\"];\n}"
-},
-{
-instruct: "Analyzing correlation",
-input: "attention data and passiflora cultivation",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Cultivation Parameters (Passiflora)\" -> \"Attention Levels\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Cultivation Parameters (Passiflora)\" -> \"Anxiety\" [label=\"NCA\", color=\"green\"];\n  \"Anxiety\" -> \"Attention Levels\" [label=\"Influences (NCA)\", color=\"green\"];\n}"
-},
-{
-instruct: "Modelar resposta",
-input: "atenção à camomila e qualidade do sono",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Consumo de Camomila\" -> \"Atenção\" [label=\"Modula (PLS-SEM)\", color=\"blue\"];\n  \"Atenção\" -> \"Qualidade do Sono\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Ansiedade\" -> \"Qualidade do Sono\" [label=\"Influencia (NCA)\", color=\"blue\"];\n  \"Consumo de Camomila\" -> \"Ansiedade\" [label=\"Reduz (PLS-SEM)\", color=\"blue\"];\n}"
-},
-{
-instruct: "Analisar correlação",
-input: "dados de atenção e cultivo de camomila",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Camomila)\" -> \"Níveis de Atenção\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Camomila)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Níveis de Atenção\" [label=\"Influencia (NCA)\", color=\"green\"];\n}"
-},
-{
-instruct: "Modeling response",
-input: "attention to chamomile and sleep quality",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Chamomile Intake\" -> \"Attention\" [label=\"Modulates (PLS-SEM)\", color=\"blue\"];\n  \"Attention\" -> \"Sleep Quality\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Anxiety\" -> \"Sleep Quality\" [label=\"Influences (NCA)\", color=\"blue\"];\n  \"Chamomile Intake\" -> \"Anxiety\" [label=\"Reduces (PLS-SEM)\", color=\"blue\"];\n}"
-},
-{
-instruct: "Analyzing correlation",
-input: "attention data and chamomile cultivation",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Cultivation Parameters (Chamomile)\" -> \"Attention Levels\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Cultivation Parameters (Chamomile)\" -> \"Anxiety\" [label=\"NCA\", color=\"green\"];\n  \"Anxiety\" -> \"Attention Levels\" [label=\"Influences (NCA)\", color=\"green\"];\n}"
-},
-{
-instruct: "Modelar resposta",
-input: "atenção à calêndula e qualidade do sono",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Consumo de Calêndula\" -> \"Atenção\" [label=\"Modula (PLS-SEM)\", color=\"blue\"];\n  \"Atenção\" -> \"Qualidade do Sono\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Ansiedade\" -> \"Qualidade do Sono\" [label=\"Influencia (NCA)\", color=\"blue\"];\n  \"Consumo de Calêndula\" -> \"Ansiedade\" [label=\"Reduz (PLS-SEM)\", color=\"blue\"];\n}"
-},
-{
-instruct: "Analisar correlação",
-input: "dados de atenção e cultivo de calêndula",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Calêndula)\" -> \"Níveis de Atenção\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Calêndula)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Níveis de Atenção\" [label=\"Influencia (NCA)\", color=\"green\"];\n}"
-},
-{
-instruct: "Modelar resposta",
-input: "atenção à camomila e EDA",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Consumo de Camomila\" -> \"Atenção\" [label=\"Modula (PLS-SEM)\", color=\"blue\"];\n  \"Atenção\" -> \"Condutância da Pele (EDA)\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Ansiedade\" -> \"Condutância da Pele (EDA)\" [label=\"Influencia (NCA)\", color=\"blue\"];\n  \"Consumo de Camomila\" -> \"Ansiedade\" [label=\"Reduz (PLS-SEM)\", color=\"blue\"];\n}"
-},
-{
-instruct: "Analisar correlação",
-input: "dados de atenção e cultivo de camomila",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Camomila)\" -> \"Níveis de Atenção\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Camomila)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Níveis de Atenção\" [label=\"Influencia (NCA)\", color=\"green\"];\n}"
-},
-{
-instruct: "Modeling response",
-input: "attention to chamomile and EDA",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Chamomile Intake\" -> \"Attention\" [label=\"Modulates (PLS-SEM)\", color=\"blue\"];\n  \"Attention\" -> \"Skin Conductance (EDA)\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Anxiety\" -> \"Skin Conductance (EDA)\" [label=\"Influences (NCA)\", color=\"blue\"];\n  \"Chamomile Intake\" -> \"Anxiety\" [label=\"Reduces (PLS-SEM)\", color=\"blue\"];\n}"
-},
-{
-instruct: "Analyzing correlation",
-input: "attention data and chamomile cultivation",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Cultivation Parameters (Chamomile)\" -> \"Attention Levels\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Cultivation Parameters (Chamomile)\" -> \"Anxiety\" [label=\"NCA\", color=\"green\"];\n  \"Anxiety\" -> \"Attention Levels\" [label=\"Influences (NCA)\", color=\"green\"];\n}"
-},
-{
-instruct: "Modelar resposta",
-input: "sistema imune à equinácea e motivação",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Equinácea\" -> \"Sistema Imune\" [label=\"Modula\", color=\"blue\"];\n  \"Sistema Imune\" -> \"Níveis de Motivação\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Ansiedade\" -> \"Níveis de Motivação\" [label=\"Influencia (NCA)\", color=\"blue\"];\n  \"Sistema Imune\" -> \"Ansiedade\" [label=\"Modula (NCA)\", color=\"blue\"];\n}"
-},
-{
-instruct: "Analisar correlação",
-input: "dados de imunidade e cultivo de equinácea",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Equinácea)\" -> \"Resposta Imune\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Equinácea)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Resposta Imune\" [label=\"Influencia (NCA)\", color=\"green\"];\n}"
-},
-{
-instruct: "Modeling response",
-input: "immune system to echinacea and motivation",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Echinacea\" -> \"Immune System\" [label=\"Modulates\", color=\"blue\"];\n  \"Immune System\" -> \"Motivation Levels\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Anxiety\" -> \"Motivation Levels\" [label=\"Influences (NCA)\", color=\"blue\"];\n  \"Immune System\" -> \"Anxiety\" [label=\"Modulates (NCA)\", color=\"blue\"];\n}"
-},
-{
-instruct: "Analyzing correlation",
-input: "immunity data and echinacea cultivation",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Cultivation Parameters (Echinacea)\" -> \"Immune Response\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Cultivation Parameters (Echinacea)\" -> \"Anxiety\" [label=\"NCA\", color=\"green\"];\n  \"Anxiety\" -> \"Immune Response\" [label=\"Influences (NCA)\", color=\"green\"];\n}"
-},
-{
-instruct: "Avaliar eficácia",
-input: "tratamento com camomila e níveis de motivação",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Dosagem de Camomila\" -> \"Níveis de Motivação\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Dosagem de Camomila\" -> \"Ansiedade\" [label=\"NCA\", color=\"blue\"];\n  \"Ansiedade\" -> \"Níveis de Motivação\" [label=\"Influencia (NCA)\", color=\"blue\"];\n}"
-},
-{
-instruct: "Analisar correlação",
-input: "dados de motivação e cultivo de camomila",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Camomila)\" -> \"Níveis de Motivação\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Camomila)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Níveis de Motivação\" [label=\"Influencia (NCA)\", color=\"green\"];\n}"
-},
-{
-instruct: "Prever resposta",
-input: "ao tratamento com motivação e passiflora",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Níveis de Motivação\" -> \"Resposta ao Tratamento (Passiflora)\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Níveis de Motivação\" -> \"Ansiedade\" [label=\"NCA\", color=\"blue\"];\n  \"Passiflora\" -> \"Ansiedade\" [label=\"Reduz (PLS-SEM)\", color=\"blue\"];\n}"
-},
-{
-instruct: "Analisar correlação",
-input: "dados de motivação e cultivo de passiflora",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Passiflora)\" -> \"Níveis de Motivação\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Passiflora)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Níveis de Motivação\" [label=\"Influencia (NCA)\", color=\"green\"];\n}"
-},
-{
-instruct: "Predict response",
-input: "to treatment with motivation and passiflora",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Motivation Levels\" -> \"Passiflora Treatment Response\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Motivation Levels\" -> \"Anxiety\" [label=\"NCA\", color=\"blue\"];\n  \"Passiflora\" -> \"Anxiety\" [label=\"Reduces (PLS-SEM)\", color=\"blue\"];\n}"
-},
-{
-instruct: "Analyzing correlation",
-input: "motivation data and passiflora cultivation",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Cultivation Parameters (Passiflora)\" -> \"Motivation Levels\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Cultivation Parameters (Passiflora)\" -> \"Anxiety\" [label=\"NCA\", color=\"green\"];\n  \"Anxiety\" -> \"Motivation Levels\" [label=\"Influences (NCA)\", color=\"green\"];\n}"
-},
-{
-instruct: "Identificar biomarcadores",
-input: "motivação e resposta à camomila",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Níveis de Motivação\" -> \"Biomarcadores\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Biomarcadores\" -> \"Resposta à Camomila\" [label=\"Predizem\", color=\"blue\"];\n}"
-},
-{
-instruct: "Analisar correlação",
-input: "dados de biomarcadores e cultivo de camomila",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Camomila)\" -> \"Biomarcadores\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Camomila)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Biomarcadores\" [label=\"Influencia (NCA)\", color=\"green\"];\n}"
-},
-{
-instruct: "Identify biomarkers",
-input: "motivation and response to chamomile",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Motivation Levels\" -> \"Biomarkers\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Biomarkers\" -> \"Chamomile Response\" [label=\"Predict\", color=\"blue\"];\n}"
-},
-{
-instruct: "Analyzing correlation",
-input: "biomarker data and chamomile cultivation",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Cultivation Parameters (Chamomile)\" -> \"Biomarkers\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Cultivation Parameters (Chamomile)\" -> \"Anxiety\" [label=\"NCA\", color=\"green\"];\n  \"Anxiety\" -> \"Biomarkers\" [label=\"Influences (NCA)\", color=\"green\"];\n}"
-},
-{
-instruct: "Modelar resposta",
-input: "sistema gastrointestinal à calêndula e motivação",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Calêndula\" -> \"Microbiota Intestinal\" [label=\"Modula\", color=\"blue\"];\n  \"Microbiota Intestinal\" -> \"Níveis de Motivação\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Ansiedade\" -> \"Níveis de Motivação\" [label=\"Influencia (NCA)\", color=\"blue\"];\n  \"Microbiota Intestinal\" -> \"Ansiedade\" [label=\"Modula (NCA)\", color=\"blue\"];\n}"
-},
-{
-instruct: "Analisar correlação",
-input: "dados de microbiota e cultivo de calêndula",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Calêndula)\" -> \"Composição da Microbiota\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Calêndula)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Composição da Microbiota\" [label=\"Influencia (NCA)\", color=\"green\"];\n}"
-},
-{
-instruct: "Identificar biomarcadores",
-input: "motivação e resposta à calêndula",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Níveis de Motivação\" -> \"Biomarcadores\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Biomarcadores\" -> \"Resposta à Calêndula\" [label=\"Predizem\", color=\"blue\"];\n}"
-},
-{
-instruct: "Analisar correlação",
-input: "dados de biomarcadores e cultivo de calêndula",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Calêndula)\" -> \"Biomarcadores\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Calêndula)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Biomarcadores\" [label=\"Influencia (NCA)\", color=\"green\"];\n}"
-},
-{
-instruct: "Identify biomarkers",
-input: "motivation and response to calendula",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Motivation Levels\" -> \"Biomarkers\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Biomarkers\" -> \"Calendula Response\" [label=\"Predict\", color=\"blue\"];\n}"
-},
-{
-instruct: "Analyzing correlation",
-input: "biomarker data and calendula cultivation",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Cultivation Parameters (Calendula)\" -> \"Biomarkers\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Cultivation Parameters (Calendula)\" -> \"Anxiety\" [label=\"NCA\", color=\"green\"];\n  \"Anxiety\" -> \"Biomarkers\" [label=\"Influences (NCA)\", color=\"green\"];\n}"
-},
-{
-instruct: "Avaliar eficácia",
-input: "tratamento com blend e EDA",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Composição do Blend\" -> \"Condutância da Pele (EDA)\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Composição do Blend\" -> \"Ansiedade\" [label=\"NCA\", color=\"blue\"];\n  \"Ansiedade\" -> \"Condutância da Pele (EDA)\" [label=\"Influencia (NCA)\", color=\"blue\"];\n}"
-},
-{
-instruct: "Analisar correlação",
-input: "dados de EDA e blend de ansiolíticos",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Composição do Blend\" -> \"Condutância da Pele (EDA)\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Composição do Blend\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Condutância da Pele (EDA)\" [label=\"Influencia (NCA)\", color=\"green\"];\n}"
-},
-},
-{
-instruct: "Evaluate treatment efficacy",
-input: "with anxiolytic blend and EDA",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Blend Composition\" -> \"Skin Conductance (EDA)\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Blend Composition\" -> \"Anxiety\" [label=\"NCA\", color=\"blue\"];\n  \"Anxiety\" -> \"Skin Conductance (EDA)\" [label=\"Influences (NCA)\", color=\"blue\"];\n}"
-},
-{
-instruct: "Analyze correlation",
-input: "from skin conductance and anxiolytic blend",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Blend Composition\" -> \"Skin Conductance (EDA)\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Blend Composition\" -> \"Anxiety\" [label=\"NCA\", color=\"green\"];\n  \"Anxiety\" -> \"Skin Conductance (EDA)\" [label=\"Influences (NCA)\", color=\"green\"];\n}"
-},
-{
-instruct: "Modelar resposta",
-input: "atenção à calêndula e EDA",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Consumo de Calêndula\" -> \"Atenção\" [label=\"Modula (PLS-SEM)\", color=\"blue\"];\n  \"Atenção\" -> \"Condutância da Pele (EDA)\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Ansiedade\" -> \"Condutância da Pele (EDA)\" [label=\"Influencia (NCA)\", color=\"blue\"];\n  \"Consumo de Calêndula\" -> \"Ansiedade\" [label=\"Reduz (PLS-SEM)\", color=\"blue\"];\n}"
-},
-{
-instruct: "Analisar correlação",
-input: "dados de atenção e cultivo de calêndula",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Calêndula)\" -> \"Níveis de Atenção\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Calêndula)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Níveis de Atenção\" [label=\"Influencia (NCA)\", color=\"green\"];\n}"
-},
-{
-instruct: "Analisar correlação",
-input: "dados de cortisol e blend de ansiolíticos",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Composição do Blend\" -> \"Níveis de Cortisol\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Composição do Blend\" -> \"Ansiedade\" [label=\"NCA\", color=\"blue\"];\n  \"Ansiedade\" -> \"Níveis de Cortisol\" [label=\"Influencia (NCA)\", color=\"blue\"];\n}"
-},
-{
-instruct: "Analisar correlação",
-input: "dados de cortisol e cultivo de blend de ansiolíticos",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Blend)\" -> \"Níveis de Cortisol\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Blend)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Níveis de Cortisol\" [label=\"Influencia (NCA)\", color=\"green\"];\n}"
-},
-{
-instruct: "Analyze correlation",
-input: "between cortisol levels and anxiolytic blend",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Blend Composition\" -> \"Cortisol Levels\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Blend Composition\" -> \"Anxiety\" [label=\"NCA\", color=\"blue\"];\n  \"Anxiety\" -> \"Cortisol Levels\" [label=\"Influences (NCA)\", color=\"blue\"];\n}"
-},
-{
-instruct: "Analyze correlation",
-input: "between cortisol levels and anxiolytic blend cultivation",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Cultivation Parameters (Blend)\" -> \"Cortisol Levels\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Cultivation Parameters (Blend)\" -> \"Anxiety\" [label=\"NCA\", color=\"green\"];\n  \"Anxiety\" -> \"Cortisol Levels\" [label=\"Influences (NCA)\", color=\"green\"];\n}"
-},
-{
-instruct: "Prever resposta",
-input: "ao tratamento com cortisol e blend",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Níveis de Cortisol\" -> \"Resposta ao Tratamento (Blend)\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Níveis de Cortisol\" -> \"Ansiedade\" [label=\"NCA\", color=\"blue\"];\n  \"Composição do Blend\" -> \"Ansiedade\" [label=\"Modula (PLS-SEM)\", color=\"blue\"];\n}"
-},
-{
-instruct: "Analisar correlação",
-input: "dados de resposta ao tratamento com blend e cultivo de blend",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Blend)\" -> \"Resposta ao Tratamento (Blend)\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Blend)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Resposta ao Tratamento (Blend)\" [label=\"Influencia (NCA)\", color=\"green\"];\n}"
-},
-{
-instruct: "Predict response",
-input: "to treatment with cortisol and blend",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Cortisol Levels\" -> \"Blend Treatment Response\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Cortisol Levels\" -> \"Anxiety\" [label=\"NCA\", color=\"blue\"];\n  \"Blend Composition\" -> \"Anxiety\" [label=\"Modulates (PLS-SEM)\", color=\"blue\"];\n}"
-},
-{
-instruct: "Analyze correlation",
-input: "between blend treatment response and blend cultivation",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Cultivation Parameters (Blend)\" -> \"Blend Treatment Response\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Cultivation Parameters (Blend)\" -> \"Anxiety\" [label=\"NCA\", color=\"green\"];\n  \"Anxiety\" -> \"Blend Treatment Response\" [label=\"Influences (NCA)\", color=\"green\"];\n}"
-},
-{
-instruct: "Identificar biomarcadores",
-input: "cortisol e resposta ao blend",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Níveis de Cortisol\" -> \"Biomarcadores\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Biomarcadores\" -> \"Resposta ao Blend\" [label=\"Predizem\", color=\"blue\"];\n}"
-},
-{
-instruct: "Analisar correlação",
-input: "dados de biomarcadores e cultivo de blend de ansiolíticos",
-output: "digraph {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Blend)\" -> \"Biomarcadores\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Blend)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Biomarcadores\" [label=\"Influencia (NCA)\", color=\"green\"];\n}"
-}
+    {
+        "instruction": "Modelar resposta",
+        "input": "atenção à passiflora e qualidade do sono",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Consumo de Passiflora\" -> \"Atenção\" [label=\"Modula (PLS-SEM)\", color=\"blue\"];\n  \"Atenção\" -> \"Qualidade do Sono\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Ansiedade\" -> \"Qualidade do Sono\" [label=\"Influencia (NCA)\", color=\"blue\"];\n  \"Consumo de Passiflora\" -> \"Ansiedade\" [label=\"Reduz (PLS-SEM)\", color=\"blue\"];\n    }"
+    },
+    {
+        "instruction": "Analisar correlação",
+        "input": "dados de atenção e cultivo de passiflora",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Passiflora)\" -> \"Níveis de Atenção\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Passiflora)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Níveis de Atenção\" [label=\"Influencia (NCA)\", color=\"green\"];\n    }"
+    },
+    {
+        "instruction": "Modeling response",
+        "input": "attention to passiflora and sleep quality",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Passiflora Intake\" -> \"Attention\" [label=\"Modulates (PLS-SEM)\", color=\"blue\"];\n  \"Attention\" -> \"Sleep Quality\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Anxiety\" -> \"Sleep Quality\" [label=\"Influences (NCA)\", color=\"blue\"];\n  \"Passiflora Intake\" -> \"Anxiety\" [label=\"Reduces (PLS-SEM)\", color=\"blue\"];\n    }"
+    },
+    {
+        "instruction": "Analyzing correlation",
+        "input": "attention data and passiflora cultivation",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Cultivation Parameters (Passiflora)\" -> \"Attention Levels\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Cultivation Parameters (Passiflora)\" -> \"Anxiety\" [label=\"NCA\", color=\"green\"];\n  \"Anxiety\" -> \"Attention Levels\" [label=\"Influences (NCA)\", color=\"green\"];\n    }"
+    },
+    {
+        "instruction": "Modelar resposta",
+        "input": "atenção à camomila e qualidade do sono",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Consumo de Camomila\" -> \"Atenção\" [label=\"Modula (PLS-SEM)\", color=\"blue\"];\n  \"Atenção\" -> \"Qualidade do Sono\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Ansiedade\" -> \"Qualidade do Sono\" [label=\"Influencia (NCA)\", color=\"blue\"];\n  \"Consumo de Camomila\" -> \"Ansiedade\" [label=\"Reduz (PLS-SEM)\", color=\"blue\"];\n    }"
+    },
+    {
+        "instruction": "Analisar correlação",
+        "input": "dados de atenção e cultivo de camomila",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Camomila)\" -> \"Níveis de Atenção\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Camomila)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Níveis de Atenção\" [label=\"Influencia (NCA)\", color=\"green\"];\n    }"
+    },
+    {
+        "instruction": "Modeling response",
+        "input": "attention to chamomile and sleep quality",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Chamomile Intake\" -> \"Attention\" [label=\"Modulates (PLS-SEM)\", color=\"blue\"];\n  \"Attention\" -> \"Sleep Quality\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Anxiety\" -> \"Sleep Quality\" [label=\"Influences (NCA)\", color=\"blue\"];\n  \"Chamomile Intake\" -> \"Anxiety\" [label=\"Reduces (PLS-SEM)\", color=\"blue\"];\n    }"
+    },
+    {
+        "instruction": "Analyzing correlation",
+        "input": "attention data and chamomile cultivation",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Cultivation Parameters (Chamomile)\" -> \"Attention Levels\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Cultivation Parameters (Chamomile)\" -> \"Anxiety\" [label=\"NCA\", color=\"green\"];\n  \"Anxiety\" -> \"Attention Levels\" [label=\"Influences (NCA)\", color=\"green\"];\n    }"
+    },
+    {
+        "instruction": "Modelar resposta",
+        "input": "atenção à calêndula e qualidade do sono",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Consumo de Calêndula\" -> \"Atenção\" [label=\"Modula (PLS-SEM)\", color=\"blue\"];\n  \"Atenção\" -> \"Qualidade do Sono\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Ansiedade\" -> \"Qualidade do Sono\" [label=\"Influencia (NCA)\", color=\"blue\"];\n  \"Consumo de Calêndula\" -> \"Ansiedade\" [label=\"Reduz (PLS-SEM)\", color=\"blue\"];\n    }"
+    },
+    {
+        "instruction": "Analisar correlação",
+        "input": "dados de atenção e cultivo de calêndula",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Calêndula)\" -> \"Níveis de Atenção\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Calêndula)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Níveis de Atenção\" [label=\"Influencia (NCA)\", color=\"green\"];\n    }"
+    },
+    {
+        "instruction": "Modelar resposta",
+        "input": "atenção à camomila e EDA",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Consumo de Camomila\" -> \"Atenção\" [label=\"Modula (PLS-SEM)\", color=\"blue\"];\n  \"Atenção\" -> \"Condutância da Pele (EDA)\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Ansiedade\" -> \"Condutância da Pele (EDA)\" [label=\"Influencia (NCA)\", color=\"blue\"];\n  \"Consumo de Camomila\" -> \"Ansiedade\" [label=\"Reduz (PLS-SEM)\", color=\"blue\"];\n    }"
+    },
+    {
+        "instruction": "Analisar correlação",
+        "input": "dados de atenção e cultivo de camomila",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Camomila)\" -> \"Níveis de Atenção\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Camomila)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Níveis de Atenção\" [label=\"Influencia (NCA)\", color=\"green\"];\n    }"
+    },
+    {
+        "instruction": "Modeling response",
+        "input": "attention to chamomile and EDA",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Chamomile Intake\" -> \"Attention\" [label=\"Modulates (PLS-SEM)\", color=\"blue\"];\n  \"Attention\" -> \"Skin Conductance (EDA)\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Anxiety\" -> \"Skin Conductance (EDA)\" [label=\"Influences (NCA)\", color=\"blue\"];\n  \"Chamomile Intake\" -> \"Anxiety\" [label=\"Reduces (PLS-SEM)\", color=\"blue\"];\n    }"
+    },
+    {
+        "instruction": "Analyzing correlation",
+        "input": "attention data and chamomile cultivation",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Cultivation Parameters (Chamomile)\" -> \"Attention Levels\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Cultivation Parameters (Chamomile)\" -> \"Anxiety\" [label=\"NCA\", color=\"green\"];\n  \"Anxiety\" -> \"Attention Levels\" [label=\"Influences (NCA)\", color=\"green\"];\n    }"
+    },
+    {
+        "instruction": "Modelar resposta",
+        "input": "sistema imune à equinácea e motivação",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Equinácea\" -> \"Sistema Imune\" [label=\"Modula\", color=\"blue\"];\n  \"Sistema Imune\" -> \"Níveis de Motivação\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Ansiedade\" -> \"Níveis de Motivação\" [label=\"Influencia (NCA)\", color=\"blue\"];\n  \"Sistema Imune\" -> \"Ansiedade\" [label=\"Modula (NCA)\", color=\"blue\"];\n    }"
+    },
+    {
+        "instruction": "Analisar correlação",
+        "input": "dados de imunidade e cultivo de equinácea",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Equinácea)\" -> \"Resposta Imune\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Equinácea)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Resposta Imune\" [label=\"Influencia (NCA)\", color=\"green\"];\n    }"
+    },
+    {
+        "instruction": "Modeling response",
+        "input": "immune system to echinacea and motivation",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Echinacea\" -> \"Immune System\" [label=\"Modulates\", color=\"blue\"];\n  \"Immune System\" -> \"Motivation Levels\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Anxiety\" -> \"Motivation Levels\" [label=\"Influences (NCA)\", color=\"blue\"];\n  \"Immune System\" -> \"Anxiety\" [label=\"Modulates (NCA)\", color=\"blue\"];\n    }"
+    },
+    {
+        "instruction": "Analyzing correlation",
+        "input": "immunity data and echinacea cultivation",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Cultivation Parameters (Echinacea)\" -> \"Immune Response\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Cultivation Parameters (Echinacea)\" -> \"Anxiety\" [label=\"NCA\", color=\"green\"];\n  \"Anxiety\" -> \"Immune Response\" [label=\"Influences (NCA)\", color=\"green\"];\n    }"
+    },
+    {
+        "instruction": "Avaliar eficácia",
+        "input": "tratamento com camomila e níveis de motivação",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Dosagem de Camomila\" -> \"Níveis de Motivação\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Dosagem de Camomila\" -> \"Ansiedade\" [label=\"NCA\", color=\"blue\"];\n  \"Ansiedade\" -> \"Níveis de Motivação\" [label=\"Influencia (NCA)\", color=\"blue\"];\n    }"
+    },
+    {
+        "instruction": "Analisar correlação",
+        "input": "dados de motivação e cultivo de camomila",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Camomila)\" -> \"Níveis de Motivação\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Camomila)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Níveis de Motivação\" [label=\"Influencia (NCA)\", color=\"green\"];\n    }"
+    },
+    {
+        "instruction": "Prever resposta",
+        "input": "ao tratamento com motivação e passiflora",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Níveis de Motivação\" -> \"Resposta ao Tratamento (Passiflora)\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Níveis de Motivação\" -> \"Ansiedade\" [label=\"NCA\", color=\"blue\"];\n  \"Passiflora\" -> \"Ansiedade\" [label=\"Reduz (PLS-SEM)\", color=\"blue\"];\n    }"
+    },
+    {
+        "instruction": "Analisar correlação",
+        "input": "dados de motivação e cultivo de passiflora",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Passiflora)\" -> \"Níveis de Motivação\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Passiflora)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Níveis de Motivação\" [label=\"Influencia (NCA)\", color=\"green\"];\n    }"
+    },
+    {
+        "instruction": "Predict response",
+        "input": "to treatment with motivation and passiflora",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Motivation Levels\" -> \"Passiflora Treatment Response\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Motivation Levels\" -> \"Anxiety\" [label=\"NCA\", color=\"blue\"];\n  \"Passiflora\" -> \"Anxiety\" [label=\"Reduces (PLS-SEM)\", color=\"blue\"];\n    }"
+    },
+    {
+        "instruction": "Analyzing correlation",
+        "input": "motivation data and passiflora cultivation",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Cultivation Parameters (Passiflora)\" -> \"Motivation Levels\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Cultivation Parameters (Passiflora)\" -> \"Anxiety\" [label=\"NCA\", color=\"green\"];\n  \"Anxiety\" -> \"Motivation Levels\" [label=\"Influences (NCA)\", color=\"green\"];\n    }"
+    },
+    {
+        "instruction": "Identificar biomarcadores",
+        "input": "motivação e resposta à camomila",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Níveis de Motivação\" -> \"Biomarcadores\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Biomarcadores\" -> \"Resposta à Camomila\" [label=\"Predizem\", color=\"blue\"];\n    }"
+    },
+    {
+        "instruction": "Analisar correlação",
+        "input": "dados de biomarcadores e cultivo de camomila",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Camomila)\" -> \"Biomarcadores\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Camomila)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Biomarcadores\" [label=\"Influencia (NCA)\", color=\"green\"];\n    }"
+    },
+    {
+        "instruction": "Identify biomarkers",
+        "input": "motivation and response to chamomile",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Motivation Levels\" -> \"Biomarkers\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Biomarkers\" -> \"Chamomile Response\" [label=\"Predict\", color=\"blue\"];\n    }"
+    },
+    {
+        "instruction": "Analyzing correlation",
+        "input": "biomarker data and chamomile cultivation",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Cultivation Parameters (Chamomile)\" -> \"Biomarkers\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Cultivation Parameters (Chamomile)\" -> \"Anxiety\" [label=\"NCA\", color=\"green\"];\n  \"Anxiety\" -> \"Biomarkers\" [label=\"Influences (NCA)\", color=\"green\"];\n    }"
+    },
+    {
+        "instruction": "Modelar resposta",
+        "input": "sistema gastrointestinal à calêndula e motivação",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Calêndula\" -> \"Microbiota Intestinal\" [label=\"Modula\", color=\"blue\"];\n  \"Microbiota Intestinal\" -> \"Níveis de Motivação\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Ansiedade\" -> \"Níveis de Motivação\" [label=\"Influencia (NCA)\", color=\"blue\"];\n  \"Microbiota Intestinal\" -> \"Ansiedade\" [label=\"Modula (NCA)\", color=\"blue\"];\n    }"
+    },
+    {
+        "instruction": "Analisar correlação",
+        "input": "dados de microbiota e cultivo de calêndula",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Calêndula)\" -> \"Composição da Microbiota\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Calêndula)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Composição da Microbiota\" [label=\"Influencia (NCA)\", color=\"green\"];\n    }"
+    },
+    {
+        "instruction": "Identificar biomarcadores",
+        "input": "motivação e resposta à calêndula",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Níveis de Motivação\" -> \"Biomarcadores\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Biomarcadores\" -> \"Resposta à Calêndula\" [label=\"Predizem\", color=\"blue\"];\n    }"
+    },
+    {
+        "instruction": "Analisar correlação",
+        "input": "dados de biomarcadores e cultivo de calêndula",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Calêndula)\" -> \"Biomarcadores\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Calêndula)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Biomarcadores\" [label=\"Influencia (NCA)\", color=\"green\"];\n    }"
+    },
+    {
+        "instruction": "Identify biomarkers",
+        "input": "motivation and response to calendula",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Motivation Levels\" -> \"Biomarkers\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Biomarkers\" -> \"Calendula Response\" [label=\"Predict\", color=\"blue\"];\n    }"
+    },
+    {
+        "instruction": "Analyzing correlation",
+        "input": "biomarker data and calendula cultivation",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Cultivation Parameters (Calendula)\" -> \"Biomarkers\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Cultivation Parameters (Calendula)\" -> \"Anxiety\" [label=\"NCA\", color=\"green\"];\n  \"Anxiety\" -> \"Biomarkers\" [label=\"Influences (NCA)\", color=\"green\"];\n    }"
+    },
+    {
+        "instruction": "Avaliar eficácia",
+        "input": "tratamento com blend e EDA",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Composição do Blend\" -> \"Condutância da Pele (EDA)\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Composição do Blend\" -> \"Ansiedade\" [label=\"NCA\", color=\"blue\"];\n  \"Ansiedade\" -> \"Condutância da Pele (EDA)\" [label=\"Influencia (NCA)\", color=\"blue\"];\n    }"
+    },
+    {
+        "instruction": "Analisar correlação",
+        "input": "dados de EDA e blend de ansiolíticos",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Composição do Blend\" -> \"Condutância da Pele (EDA)\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Composição do Blend\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Condutância da Pele (EDA)\" [label=\"Influencia (NCA)\", color=\"green\"];\n    }"
+    },
+    },
+    {
+        "instruction": "Evaluate treatment efficacy",
+        "input": "with anxiolytic blend and EDA",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Blend Composition\" -> \"Skin Conductance (EDA)\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Blend Composition\" -> \"Anxiety\" [label=\"NCA\", color=\"blue\"];\n  \"Anxiety\" -> \"Skin Conductance (EDA)\" [label=\"Influences (NCA)\", color=\"blue\"];\n    }"
+    },
+    {
+        "instruction": "Analyze correlation",
+        "input": "from skin conductance and anxiolytic blend",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Blend Composition\" -> \"Skin Conductance (EDA)\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Blend Composition\" -> \"Anxiety\" [label=\"NCA\", color=\"green\"];\n  \"Anxiety\" -> \"Skin Conductance (EDA)\" [label=\"Influences (NCA)\", color=\"green\"];\n    }"
+    },
+    {
+        "instruction": "Modelar resposta",
+        "input": "atenção à calêndula e EDA",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Consumo de Calêndula\" -> \"Atenção\" [label=\"Modula (PLS-SEM)\", color=\"blue\"];\n  \"Atenção\" -> \"Condutância da Pele (EDA)\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Ansiedade\" -> \"Condutância da Pele (EDA)\" [label=\"Influencia (NCA)\", color=\"blue\"];\n  \"Consumo de Calêndula\" -> \"Ansiedade\" [label=\"Reduz (PLS-SEM)\", color=\"blue\"];\n    }"
+    },
+    {
+        "instruction": "Analisar correlação",
+        "input": "dados de atenção e cultivo de calêndula",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Calêndula)\" -> \"Níveis de Atenção\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Calêndula)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Níveis de Atenção\" [label=\"Influencia (NCA)\", color=\"green\"];\n    }"
+    },
+    {
+        "instruction": "Analisar correlação",
+        "input": "dados de cortisol e blend de ansiolíticos",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Composição do Blend\" -> \"Níveis de Cortisol\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Composição do Blend\" -> \"Ansiedade\" [label=\"NCA\", color=\"blue\"];\n  \"Ansiedade\" -> \"Níveis de Cortisol\" [label=\"Influencia (NCA)\", color=\"blue\"];\n    }"
+    },
+    {
+        "instruction": "Analisar correlação",
+        "input": "dados de cortisol e cultivo de blend de ansiolíticos",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Blend)\" -> \"Níveis de Cortisol\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Blend)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Níveis de Cortisol\" [label=\"Influencia (NCA)\", color=\"green\"];\n    }"
+    },
+    {
+        "instruction": "Analyze correlation",
+        "input": "between cortisol levels and anxiolytic blend",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Blend Composition\" -> \"Cortisol Levels\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Blend Composition\" -> \"Anxiety\" [label=\"NCA\", color=\"blue\"];\n  \"Anxiety\" -> \"Cortisol Levels\" [label=\"Influences (NCA)\", color=\"blue\"];\n    }"
+    },
+    {
+        "instruction": "Analyze correlation",
+        "input": "between cortisol levels and anxiolytic blend cultivation",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Cultivation Parameters (Blend)\" -> \"Cortisol Levels\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Cultivation Parameters (Blend)\" -> \"Anxiety\" [label=\"NCA\", color=\"green\"];\n  \"Anxiety\" -> \"Cortisol Levels\" [label=\"Influences (NCA)\", color=\"green\"];\n    }"
+    },
+    {
+        "instruction": "Prever resposta",
+        "input": "ao tratamento com cortisol e blend",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Níveis de Cortisol\" -> \"Resposta ao Tratamento (Blend)\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Níveis de Cortisol\" -> \"Ansiedade\" [label=\"NCA\", color=\"blue\"];\n  \"Composição do Blend\" -> \"Ansiedade\" [label=\"Modula (PLS-SEM)\", color=\"blue\"];\n    }"
+    },
+    {
+        "instruction": "Analisar correlação",
+        "input": "dados de resposta ao tratamento com blend e cultivo de blend",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Blend)\" -> \"Resposta ao Tratamento (Blend)\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Blend)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Resposta ao Tratamento (Blend)\" [label=\"Influencia (NCA)\", color=\"green\"];\n    }"
+    },
+    {
+        "instruction": "Predict response",
+        "input": "to treatment with cortisol and blend",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Cortisol Levels\" -> \"Blend Treatment Response\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Cortisol Levels\" -> \"Anxiety\" [label=\"NCA\", color=\"blue\"];\n  \"Blend Composition\" -> \"Anxiety\" [label=\"Modulates (PLS-SEM)\", color=\"blue\"];\n    }"
+    },
+    {
+        "instruction": "Analyze correlation",
+        "input": "between blend treatment response and blend cultivation",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Cultivation Parameters (Blend)\" -> \"Blend Treatment Response\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Cultivation Parameters (Blend)\" -> \"Anxiety\" [label=\"NCA\", color=\"green\"];\n  \"Anxiety\" -> \"Blend Treatment Response\" [label=\"Influences (NCA)\", color=\"green\"];\n    }"
+    },
+    {
+        "instruction": "Identificar biomarcadores",
+        "input": "cortisol e resposta ao blend",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Níveis de Cortisol\" -> \"Biomarcadores\" [label=\"PLS-SEM\", color=\"blue\"];\n  \"Biomarcadores\" -> \"Resposta ao Blend\" [label=\"Predizem\", color=\"blue\"];\n    }"
+    },
+    {
+        "instruction": "Analisar correlação",
+        "input": "dados de biomarcadores e cultivo de blend de ansiolíticos",
+        "output": "digraph     {\n  node [shape=circle, fontname=\"Calibri Bold\"];\n  edge [fontname=\"Calibri Bold\"];\n  \"Parâmetros de Cultivo (Blend)\" -> \"Biomarcadores\" [label=\"PLS-SEM\", color=\"green\"];\n  \"Parâmetros de Cultivo (Blend)\" -> \"Ansiedade\" [label=\"NCA\", color=\"green\"];\n  \"Ansiedade\" -> \"Biomarcadores\" [label=\"Influencia (NCA)\", color=\"green\"];\n    }"
+    }
 ]
